@@ -20,6 +20,7 @@ setuptools.setup(
 
     install_requires=[
         'uri_template',
+        'typing-extensions>=3.7.4.1,<3.8',
     ],
     extras_require={
         'dev': ['mypy',
